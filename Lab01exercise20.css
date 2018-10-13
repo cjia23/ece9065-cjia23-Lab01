@@ -60,8 +60,25 @@ figure {
    padding: 1.5em;
    border: solid 1pt #999999;
 }
+figure{
+  margin:2em;
+  background-color:#EEEEEE;
+  padding:1.5em;
+  border:solid 1px #999999;
+}
 h3+p+p { 
    margin: 2em;
+}
+header, footer, nav, article, section, figure, figcaption, h1, h2, h3, ul, li, body, div, p, img
+{
+margin: 0;
+padding: 0;
+font-size: 100%; 
+vertical-align: baseline; 
+border: 0;
+}
+h3+p+p{
+  margin:2em;
 }
 
 
